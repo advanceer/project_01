@@ -1,0 +1,244 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.arrow_l,
+.arrow_r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 3;
+}
+
+.arrow_r {
+    right: 0;
+}
+
+.focus ul {
+    position: absolute;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+
+}
+
+.circle li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
+    border: rgba(255, 255, 255, 0.5) solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.new-hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 33px;
+    padding: 0 15px;
+}
+
+.new-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.new-hd .more {
+    float: right;
+    font-size: 14px;
+}
+
+.new-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e901';
+}
+
+.new-bd {
+    padding: 5px 15px 0;
+}
+
+.new-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 254px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.bargin {
+    margin-top: 5px;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+    padding-top: 30px;
+}
+
+.recom_hd p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.recom_bd ul li {
+    float: left;
+    position: relative;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+.box_hd {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.box_hd ul {
+    float: right;
+}
+
+.box_hd ul li {
+    float: left;
+}
+
+.box_hd ul li a {
+    padding: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_220 {
+    width: 220px;
+    background-color: #f9f9f9;
+}
+
+.col_220 ul {
+    padding-left: 12px;
+}
+
+.col_220 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_205 {
+    width: 205px;
+}
